@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Санака</title>
+	
+	<style>
+		.div1{
+			background: #f7c4c4;
+			height: 300px;
+			width: 300px;
+			left: 300px;
+			top: 50px;
+			position: absolute;
+			border-radius: 23px;
+			transition: 3s;
+		}
+		.div2{
+			background: #fde4e4;
+			height: 300px;
+			width: 300px;
+			left: 300px;
+			top: 50px;
+			position: absolute;
+			border-radius: 23px;
+			transition: 3s;
+		}
+		.div3{
+			background: #FDF1F1;
+			height: 300px;
+			width: 300px;
+			left: 300px;
+			top: 50px;
+			position: absolute;
+			border-radius: 23px;
+			transition: 3s;
+		}
+		.pe{
+			left: 125px;
+			top: 200px;
+			position: absolute;
+		}
+		.he{
+			left: 15px;
+			top: 50px;
+			position: absolute;
+		}
+		.btn1{
+			height: 50px;
+			width: 150px;
+			position: absolute;
+			left: 300px;
+			top: 100px;
+			border-radius: 10px;
+			transition: 3s;
+		}
+		.ocnova{
+			display: none;
+		}
+		.sha{
+			width: 550px;
+			height: 200px;
+			background-image: url(model.jpeg);
+			background-size: cover;
+			position: absolute;
+			left: 500px;
+		}
+		.text{
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			border-radius: 15px;
+			left: 350px;
+			top: 50px;
+			background: #97beef;
+		}
+		.kartinka{
+			width: 150px;
+			height: 300px;
+			position: absolute;
+			background: #ECA6B1;
+			top: 250px;
+			border-radius: 10px;
+		}
+		.text2 {
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			background: #FBC2CA;
+			border-radius: 10px;
+		}
+		.text3 {
+			position: absolute;
+			top: 175px;
+			left: 5px;
+			
+		}
+		/* Общие стили страницы */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #f9f0f6; /* Нежно-розовый фон */
+            color: #4f4f4f;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Стили секции */
+        .section {
+            width: 90%;
+            max-width: 1200px;
+            padding: 50px;
+            margin-bottom: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border: 2px solid #f1c6d2; /* Светлый розовый оттенок для рамки */
+        }
+
+        /* Градиентный текст для заголовка */
+        .gradient-text {
+            font-size: 3.5rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #ff7ab7, #f5a8d1, #e91e63);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        /* Стили для текста и заголовков */
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        /* Стили для параграфов */
+        p {
+            font-size: 1.25rem;
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        /* Кнопка */
+        .button {
+            background-color: #f5a8d1; /* Нежно-розовый цвет */
+            color: white;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ff7ab7; /* Темнее розовый при наведении */
+        }
+
+        /* Стили для ссылок */
+        a {
+            text-decoration: none;
+            color: #f5a8d1; /* Нежно-розовый цвет */
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ff7ab7; /* Темнее розовый при наведении */
+        }
+
+        /* Анимация появления секции */
+        .fade-in {
+            animation: fadeIn 2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        } 
+	</style>
+</head>
+<body>
+	<div>
+		<div class="na">
+			 
+   				<button class="btn1">start</button>
+  			
+			 <div class="div1">
+			 	<h1 class="he">ты очень красивая</h1>
+			 	<p class="pe">click</p>
+			 </div>
+
+			 <div class="div2">
+			 	<h1 class="he">Ты интересный собеседник</h1>
+			 	<p class="pe">click</p>
+			 </div>
+
+			 <div class="div3">
+			 	<h1 class="he">У тебя красивый голос</h1>
+			 	<p class="pe">click</p>
+			 </div>
+		</div>
+
+
+		<div class="ocnova">
+			<div class="section fade-in">
+    			<h1 class="gradient-text">Знакомьтесь с Саяной</h1>
+    			<p>Саяна — это не просто умная и красивая девушка, но и невероятно хорошая подруга. Она всегда рядом, готова поддержать и помочь в любых ситуациях.</p>
+    			<a href="#" class="button">Узнать больше</a>
+			</div>
+
+			<!-- Секция "О Саяне" -->
+			<div class="section about-sayana fade-in">
+			    <h2>О Саяне</h2>
+			    <p>Саяна — это человек, который всегда помогает своим друзьям. Она с готовностью выслушает, поддержит и даст полезный совет, если нужно. Ее доброта и искренность делают ее невероятно ценным человеком в жизни каждого, кто с ней знаком.</p>
+			</div>
+
+			<!-- Секция "Как Саяна помогает" -->
+			<div class="section helping fade-in">
+			    <h2>Как Саяна Помогает</h2>
+			    <p>Саяна всегда готова прийти на помощь. Будь то трудная ситуация на учебе, проблемы в отношениях или просто нужно выговориться — она рядом. Ее советы всегда актуальны, и ее поддержка никогда не бывает лишней.</p>
+			</div>
+
+			<!-- Секция "Почему Саяна Особенная" -->
+			<div class="section special fade-in">
+			    <h2>Почему Саяна Особенная</h2>
+			    <p>Что делает Саяну особенной? Ее способность видеть хорошее в людях и помогать им раскрывать свой потенциал. Саяна вдохновляет своих друзей на успех, и каждый, кто с ней общается, становится лучше.</p>
+			</div>
+			
+
+
+		</div>		  
+	</div>
+	<script  src="script.js"></script>
+</body>
+</html>
